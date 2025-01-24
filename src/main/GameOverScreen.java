@@ -1,3 +1,5 @@
+// rajouter un bouton pour relancer une partie, remise à 0 des variables du jeu
+
 package main;
 
 import java.io.*;
