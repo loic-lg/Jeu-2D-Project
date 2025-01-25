@@ -1,4 +1,5 @@
 // rajouter un bouton pour relancer une partie, remise à 0 des variables du jeu
+// vérifier la gestion des ressources, le jeu peu crasher sur certains pc
 
 package main;
 
