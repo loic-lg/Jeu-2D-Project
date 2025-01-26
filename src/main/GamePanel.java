@@ -120,7 +120,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             timer.stop();
         }
 
-        int delay = slow ? 40 : 120; // Ralenti de 40 à 500ms tant que le bouton start n'est pas cliqué
+        int delay = slow ? 40 : 120; // Ralenti de 40 à 500ms tant que le bouton start n'est pas cliqué / ne pas entrer dans cette boucle quand on veut restart
         System.out.println("vitese du jeu :" + (slow ? "Normal" : "Slow"));
 
         timer = new Timer(delay, this);
