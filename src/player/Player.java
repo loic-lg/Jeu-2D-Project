@@ -16,3 +16,5 @@ public interface Player {
 
     int getCenterY();
 }
+
+ //getHealth à implémenter dans les classes qui implémentent l'interface Player

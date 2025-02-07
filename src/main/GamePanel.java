@@ -126,7 +126,6 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
         timer = new Timer(delay, this);
         timer.start();
         System.out.println("Timer redémarré avec délai : " + delay);
-
     }
 
     private void handleCollision(Hero hero, DecorationElement element) {
